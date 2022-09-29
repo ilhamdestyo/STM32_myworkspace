@@ -1,0 +1,7 @@
+../Src/myclock.c:12:6:systick_init	4	static
+../Src/myclock.c:19:6:Delaymicro	4	static
+../Src/myclock.c:26:6:DelayUs	16	static
+../Src/myclock.c:35:6:DelayMillis	4	static
+../Src/myclock.c:42:6:DelayMs	16	static
+../Src/myclock.c:50:6:systick_int_start	4	static,ignoring_inline_asm
+../Src/myclock.c:60:6:systick_int	24	static

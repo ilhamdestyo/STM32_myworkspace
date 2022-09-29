@@ -1,0 +1,10 @@
+16:18:27 **** Incremental Build of configuration Debug for project IlhamDestyo_TugasADC_PWM_WithGTK ****
+make -j4 all 
+arm-none-eabi-size   IlhamDestyo_TugasADC_PWM_WithGTK.elf 
+   text	   data	    bss	    dec	    hex	filename
+  48296	    176	  19496	  67968	  10980	IlhamDestyo_TugasADC_PWM_WithGTK.elf
+Finished building: default.size.stdout
+ 
+
+16:18:28 Build Finished. 0 errors, 0 warnings. (took 796ms)
+

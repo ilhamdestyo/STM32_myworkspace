@@ -1,0 +1,9 @@
+../Src/GPIO.c:14:6:init_GP	24	static
+../Src/GPIO.c:48:5:R_GP	32	static
+../Src/GPIO.c:71:6:W_GP	24	static
+../Src/GPIO.c:90:6:toggle_GP	16	static
+../Src/GPIO.c:106:6:PINc	16	static
+../Src/GPIO.c:111:6:B_init	8	static
+../Src/GPIO.c:116:6:BLED	16	static
+../Src/GPIO.c:121:6:Digital_Input	16	static
+../Src/GPIO.c:126:6:Digital_Output	16	static

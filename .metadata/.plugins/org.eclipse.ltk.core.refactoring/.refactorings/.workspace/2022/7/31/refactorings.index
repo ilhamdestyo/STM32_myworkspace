@@ -1,0 +1,5 @@
+1658726233175	Delete resource 'STM32F746G_DISCO'
+1658972351259	Delete resource 'Proj_STM32F103C6_USART2/Core/Src/ESP8266_HAL.c'
+1658972360202	Delete resource 'Proj_STM32F103C6_USART2/Core/Src/UartRingbuffer.c'
+1658972372341	Delete resource 'Proj_STM32F103C6_USART2/Core/Inc/ESP8266_HAL.h'
+1658972377921	Delete resource 'Proj_STM32F103C6_USART2/Core/Inc/UartRingbuffer.h'

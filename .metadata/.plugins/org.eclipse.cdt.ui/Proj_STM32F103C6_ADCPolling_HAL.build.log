@@ -1,0 +1,10 @@
+11:57:27 **** Build of configuration Debug for project Proj_STM32F103C6_ADCPolling_HAL ****
+make -j4 all 
+arm-none-eabi-size   Proj_STM32F103C6_ADCPolling_HAL.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11464	     20	   1692	  13176	   3378	Proj_STM32F103C6_ADCPolling_HAL.elf
+Finished building: default.size.stdout
+ 
+
+11:57:28 Build Finished. 0 errors, 0 warnings. (took 789ms)
+

@@ -1,0 +1,380 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Screen1",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "Width": 480,
+            "Height": 80,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 94,
+            "Y": 16,
+            "Width": 292,
+            "Height": 49,
+            "TextId": "__SingleUse_8A73",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "Image",
+            "Name": "imagescreen1",
+            "Y": -5,
+            "Width": 90,
+            "Height": 90,
+            "RelativeFilename": "prototypelogo.png"
+          },
+          {
+            "Type": "SwipeContainer",
+            "Name": "swipeContainer1",
+            "Y": 80,
+            "Width": 480,
+            "Height": 192,
+            "SwipeCutoff": 50,
+            "IndicatorImageNormal": "__designer\\Blue_PageIndicator_dot_indicator_small_normal.png",
+            "IndicatorImageHighlight": "__designer\\Blue_PageIndicator_dot_indicator_small_highlight.png",
+            "EndSwipeElasticWidth": 50,
+            "SelectedPage": "swipeContainer1Page1",
+            "Style": "Style1",
+            "Components": [
+              {
+                "Type": "Container",
+                "Name": "swipeContainer1Page1",
+                "Width": 480,
+                "Height": 192,
+                "Components": [
+                  {
+                    "Type": "Box",
+                    "Name": "box2",
+                    "Width": 480,
+                    "Height": 192,
+                    "Color": {
+                      "Red": 21,
+                      "Green": 173,
+                      "Blue": 69
+                    }
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "textArea2",
+                    "X": 210,
+                    "Y": 160,
+                    "Width": 61,
+                    "Height": 24,
+                    "TextId": "__SingleUse_KXP2",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "AutoSize": true
+                  },
+                  {
+                    "Type": "Image",
+                    "Name": "image1",
+                    "X": 7,
+                    "Y": 152,
+                    "Width": 19,
+                    "Height": 32,
+                    "RelativeFilename": "__designer\\Dark_Icons_Back_arrow_32.png"
+                  },
+                  {
+                    "Type": "Image",
+                    "Name": "image2",
+                    "X": 454,
+                    "Y": 152,
+                    "Width": 19,
+                    "Height": 32,
+                    "RelativeFilename": "__designer\\Dark_Icons_Next_arrow_32.png"
+                  }
+                ]
+              },
+              {
+                "Type": "Container",
+                "Name": "swipeContainer1Page2",
+                "Width": 480,
+                "Height": 192,
+                "Components": [
+                  {
+                    "Type": "Box",
+                    "Name": "box2_1",
+                    "Width": 480,
+                    "Height": 192,
+                    "Color": {
+                      "Red": 122,
+                      "Green": 194,
+                      "Blue": 50
+                    }
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "textArea2_1",
+                    "X": 210,
+                    "Y": 160,
+                    "Width": 61,
+                    "Height": 24,
+                    "TextId": "__SingleUse_K1JO",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "AutoSize": true
+                  },
+                  {
+                    "Type": "Image",
+                    "Name": "image1_1",
+                    "X": 7,
+                    "Y": 152,
+                    "Width": 19,
+                    "Height": 32,
+                    "RelativeFilename": "__designer\\Dark_Icons_Back_arrow_32.png"
+                  },
+                  {
+                    "Type": "Image",
+                    "Name": "image2_1",
+                    "X": 454,
+                    "Y": 152,
+                    "Width": 19,
+                    "Height": 32,
+                    "RelativeFilename": "__designer\\Dark_Icons_Next_arrow_32.png"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "buttonWithIcon1",
+            "X": 420,
+            "Y": 80,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png",
+            "IconPressed": "__designer\\Blue_Icons_Info_32.png",
+            "IconReleased": "__designer\\Blue_Icons_Info_32.png",
+            "IconX": 15,
+            "IconY": 15,
+            "IconHeight": 30,
+            "IconWidth": 30,
+            "ButtonStyle": "Style5",
+            "IconStyle": "Icon31"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonWithIcon1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen2"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen2",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "Width": 480,
+            "Height": 80,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 94,
+            "Y": 16,
+            "Width": 292,
+            "Height": 49,
+            "TextId": "__SingleUse_HIK0",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "Box",
+            "Name": "box2",
+            "Y": 80,
+            "Width": 480,
+            "Height": 192,
+            "Color": {
+              "Red": 21,
+              "Green": 135,
+              "Blue": 176
+            }
+          },
+          {
+            "Type": "SwipeContainer",
+            "Name": "swipeContainer1",
+            "Y": 94,
+            "Width": 432,
+            "Height": 162,
+            "SwipeCutoff": 50,
+            "ShowPageIndicator": true,
+            "IndicatorImageNormal": "__designer\\Blue_PageIndicator_dot_indicator_large_normal.png",
+            "IndicatorImageHighlight": "__designer\\Blue_PageIndicator_dot_indicator_large_highlight.png",
+            "EndSwipeElasticWidth": 50,
+            "SelectedPage": "swipeContainer1Page2",
+            "Components": [
+              {
+                "Type": "Container",
+                "Name": "swipeContainer1Page2",
+                "Width": 432,
+                "Height": 162,
+                "Components": [
+                  {
+                    "Type": "Box",
+                    "Name": "box3_1",
+                    "Width": 432,
+                    "Height": 162,
+                    "Color": {
+                      "Red": 5,
+                      "Green": 166,
+                      "Blue": 235
+                    }
+                  }
+                ]
+              },
+              {
+                "Type": "Container",
+                "Name": "swipeContainer1Page1",
+                "Width": 432,
+                "Height": 162,
+                "Components": [
+                  {
+                    "Type": "Box",
+                    "Name": "box3",
+                    "Width": 432,
+                    "Height": 162,
+                    "Color": {
+                      "Red": 59,
+                      "Green": 124,
+                      "Blue": 217
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "buttonWithIcon1",
+            "X": 420,
+            "Y": 80,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Square_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Square_icon_button.png",
+            "IconPressed": "__designer\\Blue_Icons_Home_32.png",
+            "IconReleased": "__designer\\Blue_Icons_Home_32.png",
+            "IconX": 15,
+            "IconY": 16,
+            "IconHeight": 29,
+            "IconWidth": 30,
+            "ButtonStyle": "Style9",
+            "IconStyle": "Icon27"
+          },
+          {
+            "Type": "Image",
+            "Name": "imagescreen2",
+            "Y": -5,
+            "Width": 90,
+            "Height": 90,
+            "RelativeFilename": "prototypelogo.png"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonWithIcon1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen1"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "MyApplication",
+    "Resolution": {
+      "Width": 480,
+      "Height": 272
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Screen1",
+    "SelectedStartupLanguage": "GB",
+    "Skin": "Blue",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 480,
+        "Height": 272
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommand": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommand": "make -f ../gcc/Makefile flash -j8",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32F7",
+    "Platform": "m7",
+    "ProjectFile": "../STM32F746G_DISCO.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": []
+  },
+  "Version": "4.19.1",
+  "CreatedBy": "4.19.1"
+}

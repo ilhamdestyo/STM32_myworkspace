@@ -1,0 +1,11 @@
+15:10:55 **** Build of configuration Debug for project IlhamDestyo_TugasConvertData ****
+make -j4 all 
+arm-none-eabi-size   IlhamDestyo_TugasConvertData.elf 
+   text	   data	    bss	    dec	    hex	filename
+  70824	    172	 217308	 288304	  46630	IlhamDestyo_TugasConvertData.elf
+Finished building: default.size.stdout
+ 
+Command canceled
+
+15:10:56 Build Cancelled. (took 1s.55ms)
+

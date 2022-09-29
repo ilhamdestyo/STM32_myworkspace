@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/home/lime/Documents/Delameta_Work/MyApplication/STM32CubeIDE"/>
+			<item value="/media/lime/ILHAMDEST/MyApplication/STM32CubeIDE"/>
+			<item value="/home/lime/Documents/Delameta_Work/source-code/C_RegisterSTM32/4.SPI/Bluetooth-for-STM32-and-Android"/>
+			<item value="/media/lime/ILHAMDEST/IlhamDestyo_ProjectMyApp"/>
+			<item value="/home/lime/Documents/Delameta_Work/IlhamDestyo_ProjectMyApp/STM32CubeIDE"/>
+			<item value="/home/lime/Documents/STM32CubeIDE/myWorkspace/STM32F7_CONVERT_DATA"/>
+			<item value="/home/lime/Documents/STM32CubeIDE/myWorkspace/STM32F746G_DISCO_uSD_FATFS"/>
+			<item value="/media/lime/disk/Button_GUI"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+	</section>
+</section>

@@ -1,0 +1,10 @@
+11:47:05 **** Incremental Build of configuration Debug for project ilm_STM32F7xx_Project1 ****
+make -j4 all 
+arm-none-eabi-size   ilm_STM32F7xx_Project1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  33448	    172	  34724	  68344	  10af8	ilm_STM32F7xx_Project1.elf
+Finished building: default.size.stdout
+ 
+
+11:47:06 Build Finished. 0 errors, 0 warnings. (took 986ms)
+

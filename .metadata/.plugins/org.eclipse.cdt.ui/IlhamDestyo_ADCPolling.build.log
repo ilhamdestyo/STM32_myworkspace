@@ -1,0 +1,10 @@
+15:10:49 **** Build of configuration Debug for project IlhamDestyo_ADCPolling ****
+make -j4 all 
+arm-none-eabi-size   IlhamDestyo_ADCPolling.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10536	     20	   1692	  12248	   2fd8	IlhamDestyo_ADCPolling.elf
+Finished building: default.size.stdout
+ 
+
+15:10:50 Build Finished. 0 errors, 0 warnings. (took 847ms)
+

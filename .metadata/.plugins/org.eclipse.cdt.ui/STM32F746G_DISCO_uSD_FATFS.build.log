@@ -1,0 +1,10 @@
+20:17:17 **** Incremental Build of configuration Debug for project STM32F746G_DISCO_uSD_FATFS ****
+make -j4 all 
+arm-none-eabi-size   STM32F746G_DISCO_uSD_FATFS.elf 
+   text	   data	    bss	    dec	    hex	filename
+  41620	    128	  35864	  77612	  12f2c	STM32F746G_DISCO_uSD_FATFS.elf
+Finished building: default.size.stdout
+ 
+
+20:17:18 Build Finished. 0 errors, 0 warnings. (took 834ms)
+

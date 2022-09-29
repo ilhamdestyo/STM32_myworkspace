@@ -1,0 +1,16 @@
+16:07:36 **** Build of configuration Debug for project IlhamDestyo_TugasConvertData_With_GTK_LED ****
+make -j4 all 
+arm-none-eabi-gcc -o "IlhamDestyo_TugasConvertData_With_GTK_LED.elf" @"objects.list"   -mcpu=cortex-m7 -T"/home/lime/Documents/Delameta_Work/source-code/C_STM32F7_TUGAS/2.STM32F7_IlhamDestyo_GTK+_GUI_LED_SDCard/IlhamDestyo_TugasConvertData_With_GTK_LED/STM32F746NGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="IlhamDestyo_TugasConvertData_With_GTK_LED.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: IlhamDestyo_TugasConvertData_With_GTK_LED.elf
+ 
+arm-none-eabi-size   IlhamDestyo_TugasConvertData_With_GTK_LED.elf 
+arm-none-eabi-objdump -h -S  IlhamDestyo_TugasConvertData_With_GTK_LED.elf  > "IlhamDestyo_TugasConvertData_With_GTK_LED.list"
+   text	   data	    bss	    dec	    hex	filename
+  70244	    180	  25988	  96412	  1789c	IlhamDestyo_TugasConvertData_With_GTK_LED.elf
+Finished building: default.size.stdout
+ 
+Finished building: IlhamDestyo_TugasConvertData_With_GTK_LED.list
+ 
+
+16:07:38 Build Finished. 0 errors, 0 warnings. (took 1s.904ms)
+

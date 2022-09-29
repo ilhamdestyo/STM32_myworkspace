@@ -1,0 +1,10 @@
+00:01:11 **** Incremental Build of configuration Debug for project Proj_STM32F103C6_ADCDMA_HAL ****
+make -j4 all 
+arm-none-eabi-size   Proj_STM32F103C6_ADCDMA_HAL.elf 
+   text	   data	    bss	    dec	    hex	filename
+  12964	     20	   1764	  14748	   399c	Proj_STM32F103C6_ADCDMA_HAL.elf
+Finished building: default.size.stdout
+ 
+
+00:01:12 Build Finished. 0 errors, 0 warnings. (took 848ms)
+

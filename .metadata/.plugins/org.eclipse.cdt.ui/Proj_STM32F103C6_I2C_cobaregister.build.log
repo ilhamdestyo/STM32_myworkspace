@@ -1,0 +1,10 @@
+11:43:21 **** Incremental Build of configuration Debug for project Proj_STM32F103C6_I2C_cobaregister ****
+make -j4 all 
+arm-none-eabi-size   Proj_STM32F103C6_I2C_cobaregister.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1416	     12	   1572	   3000	    bb8	Proj_STM32F103C6_I2C_cobaregister.elf
+Finished building: default.size.stdout
+ 
+
+11:43:22 Build Finished. 0 errors, 0 warnings. (took 836ms)
+

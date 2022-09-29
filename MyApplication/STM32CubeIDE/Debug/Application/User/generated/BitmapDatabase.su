@@ -1,0 +1,2 @@
+/home/lime/Documents/Delameta_Work/MyApplication/TouchGFX/generated/images/src/BitmapDatabase.cpp:41:37:const touchgfx::Bitmap::BitmapData* BitmapDatabase::getInstance()	0	static
+/home/lime/Documents/Delameta_Work/MyApplication/TouchGFX/generated/images/src/BitmapDatabase.cpp:46:10:uint16_t BitmapDatabase::getInstanceSize()	0	static

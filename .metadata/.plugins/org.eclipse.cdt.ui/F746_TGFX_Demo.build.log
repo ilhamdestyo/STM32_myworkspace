@@ -1,0 +1,10 @@
+11:44:00 **** Build of configuration Debug for project F746_TGFX_Demo ****
+make -j4 all 
+arm-none-eabi-size   F746_TGFX_Demo.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 728850	    244	  52404	 781498	  becba	F746_TGFX_Demo.elf
+Finished building: default.size.stdout
+ 
+
+11:44:02 Build Finished. 0 errors, 0 warnings. (took 1s.87ms)
+

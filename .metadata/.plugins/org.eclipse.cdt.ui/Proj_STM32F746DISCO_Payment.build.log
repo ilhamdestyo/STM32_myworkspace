@@ -1,0 +1,17 @@
+15:57:03 **** Incremental Build of configuration Debug for project Proj_STM32F746DISCO_Payment ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Proj_STM32F746DISCO_Payment.elf" @"objects.list"   -mcpu=cortex-m7 -T"/home/lime/Documents/STM32CubeIDE/myWorkspace/Proj_STM32F746DISCO_Payment/STM32F746NGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Proj_STM32F746DISCO_Payment.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Proj_STM32F746DISCO_Payment.elf
+ 
+arm-none-eabi-size   Proj_STM32F746DISCO_Payment.elf 
+arm-none-eabi-objdump -h -S  Proj_STM32F746DISCO_Payment.elf  > "Proj_STM32F746DISCO_Payment.list"
+   text	   data	    bss	    dec	    hex	filename
+  27520	    128	   2968	  30616	   7798	Proj_STM32F746DISCO_Payment.elf
+Finished building: default.size.stdout
+ 
+Finished building: Proj_STM32F746DISCO_Payment.list
+ 
+
+15:57:10 Build Finished. 0 errors, 0 warnings. (took 7s.231ms)
+

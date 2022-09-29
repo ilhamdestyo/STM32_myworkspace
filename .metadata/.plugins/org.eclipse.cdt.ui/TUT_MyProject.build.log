@@ -1,0 +1,10 @@
+16:09:37 **** Incremental Build of configuration Debug for project TUT_MyProject ****
+make -j4 all 
+arm-none-eabi-size   TUT_MyProject.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9488	    192	   1592	  11272	   2c08	TUT_MyProject.elf
+Finished building: default.size.stdout
+ 
+
+16:09:38 Build Finished. 0 errors, 0 warnings. (took 807ms)
+

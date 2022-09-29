@@ -1,0 +1,10 @@
+15:01:36 **** Incremental Build of configuration Debug for project equalizer ****
+make -j4 all 
+arm-none-eabi-size   equalizer.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 302298	    668	  44636	 347602	  54dd2	equalizer.elf
+Finished building: default.size.stdout
+ 
+
+15:01:37 Build Finished. 0 errors, 0 warnings. (took 837ms)
+

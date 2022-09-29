@@ -1,0 +1,5 @@
+/home/lime/Documents/Delameta_Work/MyApplication/Core/Src/main.c:677:6:StartDefaultTask	8	static
+/home/lime/Documents/Delameta_Work/MyApplication/Core/Src/main.c:228:6:SystemClock_Config	88	static
+/home/lime/Documents/Delameta_Work/MyApplication/Core/Src/main.c:127:5:main	120	static,ignoring_inline_asm
+/home/lime/Documents/Delameta_Work/MyApplication/Core/Src/main.c:733:6:HAL_TIM_PeriodElapsedCallback	0	static
+/home/lime/Documents/Delameta_Work/MyApplication/Core/Src/main.c:750:6:Error_Handler	0	static

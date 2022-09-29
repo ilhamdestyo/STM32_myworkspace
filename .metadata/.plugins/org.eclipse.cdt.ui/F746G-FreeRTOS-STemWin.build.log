@@ -1,0 +1,12 @@
+11:42:53 **** Incremental Build of configuration Debug for project F746G-FreeRTOS-STemWin ****
+make -j4 all 
+arm-none-eabi-gcc -o "F746G-FreeRTOS-STemWin.elf" @"objects.list"  -l:STemWin_CM7_wc32_ARGB.a -mcpu=cortex-m7 -T"../STM32F746NG_FLASH.ld" --specs=nosys.specs -Wl,-Map="F746G-FreeRTOS-STemWin.map" -Wl,--gc-sections -static -L../Middlewares/ST/STemWin/Lib --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+/opt/st/stm32cubeide_1.10.1/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.linux64_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld: ./Src/STemwin_wrapper.o:/home/lime/STM32F746G-DISCO_STemWin_FreeRTOS/Debug/../Src/STemwin_wrapper.c:139: multiple definition of `hltdc'; ./Src/HW_Init.o:/home/lime/STM32F746G-DISCO_STemWin_FreeRTOS/Debug/../Src/HW_Init.c:57: first defined here
+/opt/st/stm32cubeide_1.10.1/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.linux64_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld: ./Src/main.o:/home/lime/STM32F746G-DISCO_STemWin_FreeRTOS/Debug/../Src/main.c:88: multiple definition of `Factor'; ./Src/SimpleGraph.o:/home/lime/STM32F746G-DISCO_STemWin_FreeRTOS/Debug/../Src/SimpleGraph.c:27: first defined here
+collect2: error: ld returned 1 exit status
+make[1]: *** [makefile:73: F746G-FreeRTOS-STemWin.elf] Error 1
+make: *** [makefile:66: all] Error 2
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+
+11:42:54 Build Failed. 4 errors, 0 warnings. (took 1s.185ms)
+

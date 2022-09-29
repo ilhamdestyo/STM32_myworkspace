@@ -1,0 +1,20 @@
+11:14:23 **** Incremental Build of configuration Debug for project PWM_INT ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:260:13: warning: 'MX_ETH_Init' defined but not used [-Wunused-function]
+  260 | static void MX_ETH_Init(void)
+      |             ^~~~~~~~~~~
+arm-none-eabi-gcc -o "PWM_INT.elf" @"objects.list"   -mcpu=cortex-m7 -T"/home/lime/Documents/Delameta_Work/source-code/C_RegisterSTM32/PWM_INT/STM32F746ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PWM_INT.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PWM_INT.elf
+ 
+arm-none-eabi-size   PWM_INT.elf 
+arm-none-eabi-objdump -h -S  PWM_INT.elf  > "PWM_INT.list"
+   text	   data	    bss	    dec	    hex	filename
+  26396	     20	   3060	  29476	   7324	PWM_INT.elf
+Finished building: default.size.stdout
+ 
+Finished building: PWM_INT.list
+ 
+
+11:14:25 Build Finished. 0 errors, 1 warnings. (took 1s.916ms)
+

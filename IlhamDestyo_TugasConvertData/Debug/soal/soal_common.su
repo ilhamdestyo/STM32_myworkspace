@@ -1,0 +1,8 @@
+../soal/soal_common.c:7:7:replaceWordInString	48	static
+../soal/soal_common.c:35:7:trim	40	static
+../soal/soal_common.c:54:7:shift_trim	40	static
+../soal/soal_common.c:74:6:get_data_from_rawdata	320	static
+../soal/soal_common.c:113:7:IntToStr	24	static
+../soal/soal_common.c:119:5:c_round	16	static
+../soal/soal_common.c:123:8:c_modulus	40	static
+../soal/soal_common.c:129:5:isGanjil	24	static

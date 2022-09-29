@@ -1,0 +1,7 @@
+14:56:16 **** Incremental Build of configuration Debug for project STM32F746TouchGFX ****
+make -j4 all 
+TouchGFX/target/STM32TouchController.d:1: *** multiple target patterns.  Stop.
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+
+14:56:17 Build Failed. 1 errors, 0 warnings. (took 745ms)
+

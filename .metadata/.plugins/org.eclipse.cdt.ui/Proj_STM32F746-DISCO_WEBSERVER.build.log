@@ -1,0 +1,10 @@
+14:54:06 **** Build of configuration Debug for project Proj_STM32F746-DISCO_WEBSERVER ****
+make -j4 all 
+arm-none-eabi-size   Proj_STM32F746-DISCO_WEBSERVER.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20572	    136	   2184	  22892	   596c	Proj_STM32F746-DISCO_WEBSERVER.elf
+Finished building: default.size.stdout
+ 
+
+14:54:07 Build Finished. 0 errors, 0 warnings. (took 738ms)
+

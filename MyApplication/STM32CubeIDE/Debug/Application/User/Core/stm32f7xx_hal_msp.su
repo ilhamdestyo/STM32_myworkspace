@@ -1,0 +1,13 @@
+/home/lime/Documents/Delameta_Work/MyApplication/Core/Src/stm32f7xx_hal_msp.c:64:6:HAL_MspInit	8	static
+/home/lime/Documents/Delameta_Work/MyApplication/Core/Src/stm32f7xx_hal_msp.c:88:6:HAL_CRC_MspInit	8	static
+/home/lime/Documents/Delameta_Work/MyApplication/Core/Src/stm32f7xx_hal_msp.c:110:6:HAL_CRC_MspDeInit	0	static
+/home/lime/Documents/Delameta_Work/MyApplication/Core/Src/stm32f7xx_hal_msp.c:132:6:HAL_DMA2D_MspInit	16	static
+/home/lime/Documents/Delameta_Work/MyApplication/Core/Src/stm32f7xx_hal_msp.c:157:6:HAL_DMA2D_MspDeInit	0	static
+/home/lime/Documents/Delameta_Work/MyApplication/Core/Src/stm32f7xx_hal_msp.c:182:6:HAL_I2C_MspInit	168	static
+/home/lime/Documents/Delameta_Work/MyApplication/Core/Src/stm32f7xx_hal_msp.c:228:6:HAL_I2C_MspDeInit	8	static
+/home/lime/Documents/Delameta_Work/MyApplication/Core/Src/stm32f7xx_hal_msp.c:259:6:HAL_LTDC_MspInit	192	static
+/home/lime/Documents/Delameta_Work/MyApplication/Core/Src/stm32f7xx_hal_msp.c:376:6:HAL_LTDC_MspDeInit	8	static
+/home/lime/Documents/Delameta_Work/MyApplication/Core/Src/stm32f7xx_hal_msp.c:445:6:HAL_QSPI_MspInit	64	static
+/home/lime/Documents/Delameta_Work/MyApplication/Core/Src/stm32f7xx_hal_msp.c:508:6:HAL_QSPI_MspDeInit	8	static
+/home/lime/Documents/Delameta_Work/MyApplication/Core/Src/stm32f7xx_hal_msp.c:647:6:HAL_SDRAM_MspInit	48	static
+/home/lime/Documents/Delameta_Work/MyApplication/Core/Src/stm32f7xx_hal_msp.c:733:6:HAL_SDRAM_MspDeInit	8	static

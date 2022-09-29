@@ -1,0 +1,10 @@
+17:23:06 **** Build of configuration Debug for project Proj_STM32F103C6_EXTInterrupt ****
+make -j4 all 
+arm-none-eabi-size   Proj_STM32F103C6_EXTInterrupt.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4752	     20	   1572	   6344	   18c8	Proj_STM32F103C6_EXTInterrupt.elf
+Finished building: default.size.stdout
+ 
+
+17:23:07 Build Finished. 0 errors, 0 warnings. (took 740ms)
+

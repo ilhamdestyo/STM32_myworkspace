@@ -1,0 +1,10 @@
+20:14:36 **** Incremental Build of configuration Debug for project IlhamDestyo_TugasConvertData_GTK_LED ****
+make -j4 all 
+arm-none-eabi-size   IlhamDestyo_TugasConvertData_GTK_LED.elf 
+   text	   data	    bss	    dec	    hex	filename
+  62872	    172	  26556	  89600	  15e00	IlhamDestyo_TugasConvertData_GTK_LED.elf
+Finished building: default.size.stdout
+ 
+
+20:14:37 Build Finished. 0 errors, 0 warnings. (took 807ms)
+

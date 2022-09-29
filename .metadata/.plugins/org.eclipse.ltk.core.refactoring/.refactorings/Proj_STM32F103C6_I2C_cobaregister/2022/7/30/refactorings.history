@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Proj_STM32F103C6_I2C_cobaregister/Inc/myclock&apos; to &apos;myclock.h&apos;" description="Rename resource &apos;myclock&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Inc/myclock" name="myclock.h" stamp="1658235943415" updateReferences="true"/>
+</session>

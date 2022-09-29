@@ -1,0 +1,23 @@
+12:25:20 **** Incremental Build of configuration Debug for project STM32F7_CONVERT_DATA ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I"../GUI files" -I../soal -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "STM32F7_CONVERT_DATA.elf" @"objects.list"   -mcpu=cortex-m7 -T"/home/lime/Documents/STM32CubeIDE/myWorkspace/STM32F7_CONVERT_DATA/STM32F746NGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F7_CONVERT_DATA.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F7_CONVERT_DATA.elf
+ 
+arm-none-eabi-size   STM32F7_CONVERT_DATA.elf 
+arm-none-eabi-objdump -h -S  STM32F7_CONVERT_DATA.elf  > "STM32F7_CONVERT_DATA.list"
+arm-none-eabi-objcopy  -O ihex  STM32F7_CONVERT_DATA.elf  "STM32F7_CONVERT_DATA.hex"
+   text	   data	    bss	    dec	    hex	filename
+  70700	    172	 217308	 288180	  465b4	STM32F7_CONVERT_DATA.elf
+Finished building: default.size.stdout
+arm-none-eabi-objcopy  -O binary  STM32F7_CONVERT_DATA.elf  "STM32F7_CONVERT_DATA.bin"
+ 
+Finished building: STM32F7_CONVERT_DATA.hex
+ 
+Finished building: STM32F7_CONVERT_DATA.bin
+ 
+Finished building: STM32F7_CONVERT_DATA.list
+ 
+
+12:25:22 Build Finished. 0 errors, 0 warnings. (took 1s.621ms)
+

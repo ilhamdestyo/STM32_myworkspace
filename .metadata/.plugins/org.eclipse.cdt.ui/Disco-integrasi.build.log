@@ -1,0 +1,10 @@
+20:37:53 **** Incremental Build of configuration Debug for project Disco-integrasi ****
+make -j4 all 
+arm-none-eabi-size   Disco-integrasi.elf 
+   text	   data	    bss	    dec	    hex	filename
+  69604	    172	  26556	  96332	  1784c	Disco-integrasi.elf
+Finished building: default.size.stdout
+ 
+
+20:37:53 Build Finished. 0 errors, 0 warnings. (took 789ms)
+

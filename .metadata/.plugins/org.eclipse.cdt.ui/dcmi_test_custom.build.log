@@ -1,0 +1,82 @@
+11:17:30 **** Incremental Build of configuration Debug for project dcmi_test_custom ****
+make -j4 all 
+arm-none-eabi-gcc "../Drivers/ov9655/ov9655.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I../Core/Inc -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Drivers/multiregion_heap" -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Drivers/ft5336" -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Drivers/n25q128a" -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Fonts" -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Drivers/rk043fn48h" -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Drivers/Common" -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Drivers/ov9655" -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Drivers/BSP" -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/ov9655/ov9655.d" -MT"Drivers/ov9655/ov9655.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/ov9655/ov9655.o"
+arm-none-eabi-gcc "../Drivers/ov9655/ov9655_reg.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I../Core/Inc -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Drivers/multiregion_heap" -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Drivers/ft5336" -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Drivers/n25q128a" -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Fonts" -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Drivers/rk043fn48h" -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Drivers/Common" -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Drivers/ov9655" -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Drivers/BSP" -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/ov9655/ov9655_reg.d" -MT"Drivers/ov9655/ov9655_reg.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/ov9655/ov9655_reg.o"
+arm-none-eabi-gcc "../Drivers/BSP/stm32746g_discovery_camera.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I../Core/Inc -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Drivers/multiregion_heap" -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Drivers/ft5336" -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Drivers/n25q128a" -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Fonts" -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Drivers/rk043fn48h" -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Drivers/Common" -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Drivers/ov9655" -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Drivers/BSP" -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/BSP/stm32746g_discovery_camera.d" -MT"Drivers/BSP/stm32746g_discovery_camera.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/BSP/stm32746g_discovery_camera.o"
+arm-none-eabi-gcc "../Drivers/BSP/stm32746g_discovery_lcd.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I../Core/Inc -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Drivers/multiregion_heap" -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Drivers/ft5336" -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Drivers/n25q128a" -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Fonts" -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Drivers/rk043fn48h" -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Drivers/Common" -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Drivers/ov9655" -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Drivers/BSP" -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/BSP/stm32746g_discovery_lcd.d" -MT"Drivers/BSP/stm32746g_discovery_lcd.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/BSP/stm32746g_discovery_lcd.o"
+arm-none-eabi-gcc "../Drivers/BSP/stm32746g_discovery_qspi.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I../Core/Inc -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Drivers/multiregion_heap" -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Drivers/ft5336" -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Drivers/n25q128a" -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Fonts" -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Drivers/rk043fn48h" -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Drivers/Common" -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Drivers/ov9655" -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Drivers/BSP" -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/BSP/stm32746g_discovery_qspi.d" -MT"Drivers/BSP/stm32746g_discovery_qspi.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/BSP/stm32746g_discovery_qspi.o"
+../Drivers/BSP/stm32746g_discovery_camera.c:120:1: error: unknown type name 'CAMERA_DrvTypeDef'
+  120 | CAMERA_DrvTypeDef   *camera_drv;
+      | ^~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc "../Drivers/BSP/stm32746g_discovery_sdram.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I../Core/Inc -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Drivers/multiregion_heap" -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Drivers/ft5336" -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Drivers/n25q128a" -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Fonts" -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Drivers/rk043fn48h" -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Drivers/Common" -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Drivers/ov9655" -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Drivers/BSP" -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/BSP/stm32746g_discovery_sdram.d" -MT"Drivers/BSP/stm32746g_discovery_sdram.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/BSP/stm32746g_discovery_sdram.o"
+../Drivers/BSP/stm32746g_discovery_camera.c: In function 'BSP_CAMERA_Init':
+../Drivers/BSP/stm32746g_discovery_camera.c:170:6: warning: implicit declaration of function 'ov9655_ReadID'; did you mean 'OV9655_ReadID'? [-Wimplicit-function-declaration]
+  170 |   if(ov9655_ReadID(CAMERA_I2C_ADDRESS) == OV9655_ID)
+      |      ^~~~~~~~~~~~~
+      |      OV9655_ReadID
+../Drivers/BSP/stm32746g_discovery_camera.c:173:19: error: 'ov9655_drv' undeclared (first use in this function)
+  173 |     camera_drv = &ov9655_drv;
+      |                   ^~~~~~~~~~
+../Drivers/BSP/stm32746g_discovery_camera.c:173:19: note: each undeclared identifier is reported only once for each function it appears in
+../Drivers/BSP/stm32746g_discovery_camera.c:181:23: error: 'CAMERA_R480x272' undeclared (first use in this function)
+  181 |     if (Resolution == CAMERA_R480x272)
+      |                       ^~~~~~~~~~~~~~~
+../Drivers/BSP/stm32746g_discovery_camera.c:185:17: error: request for member 'Init' in something not a structure or union
+  185 |       camera_drv->Init(CameraHwAddress, CAMERA_R640x480);
+      |                 ^~
+../Drivers/BSP/stm32746g_discovery_camera.c:185:41: error: 'CAMERA_R640x480' undeclared (first use in this function)
+  185 |       camera_drv->Init(CameraHwAddress, CAMERA_R640x480);
+      |                                         ^~~~~~~~~~~~~~~
+../Drivers/BSP/stm32746g_discovery_camera.c:195:17: error: request for member 'Init' in something not a structure or union
+  195 |       camera_drv->Init(CameraHwAddress, Resolution);
+      |                 ^~
+../Drivers/BSP/stm32746g_discovery_camera.c: In function 'BSP_CAMERA_ContrastBrightnessConfig':
+../Drivers/BSP/stm32746g_discovery_camera.c:355:16: error: request for member 'Config' in something not a structure or union
+  355 |   if(camera_drv->Config != NULL)
+      |                ^~
+../Drivers/BSP/stm32746g_discovery_camera.c:357:15: error: request for member 'Config' in something not a structure or union
+  357 |     camera_drv->Config(CameraHwAddress, CAMERA_CONTRAST_BRIGHTNESS, contrast_level, brightness_level);
+      |               ^~
+../Drivers/BSP/stm32746g_discovery_camera.c:357:41: error: 'CAMERA_CONTRAST_BRIGHTNESS' undeclared (first use in this function)
+  357 |     camera_drv->Config(CameraHwAddress, CAMERA_CONTRAST_BRIGHTNESS, contrast_level, brightness_level);
+      |                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../Drivers/BSP/stm32746g_discovery_camera.c: In function 'BSP_CAMERA_BlackWhiteConfig':
+../Drivers/BSP/stm32746g_discovery_camera.c:373:16: error: request for member 'Config' in something not a structure or union
+  373 |   if(camera_drv->Config != NULL)
+      |                ^~
+../Drivers/BSP/stm32746g_discovery_camera.c:375:15: error: request for member 'Config' in something not a structure or union
+  375 |     camera_drv->Config(CameraHwAddress, CAMERA_BLACK_WHITE, Mode, 0);
+      |               ^~
+../Drivers/BSP/stm32746g_discovery_camera.c:375:41: error: 'CAMERA_BLACK_WHITE' undeclared (first use in this function)
+  375 |     camera_drv->Config(CameraHwAddress, CAMERA_BLACK_WHITE, Mode, 0);
+      |                                         ^~~~~~~~~~~~~~~~~~
+../Drivers/BSP/stm32746g_discovery_camera.c: In function 'BSP_CAMERA_ColorEffectConfig':
+../Drivers/BSP/stm32746g_discovery_camera.c:391:16: error: request for member 'Config' in something not a structure or union
+  391 |   if(camera_drv->Config != NULL)
+      |                ^~
+../Drivers/BSP/stm32746g_discovery_camera.c:393:15: error: request for member 'Config' in something not a structure or union
+  393 |     camera_drv->Config(CameraHwAddress, CAMERA_COLOR_EFFECT, Effect, 0);
+      |               ^~
+../Drivers/BSP/stm32746g_discovery_camera.c:393:41: error: 'CAMERA_COLOR_EFFECT' undeclared (first use in this function)
+  393 |     camera_drv->Config(CameraHwAddress, CAMERA_COLOR_EFFECT, Effect, 0);
+      |                                         ^~~~~~~~~~~~~~~~~~~
+../Drivers/BSP/stm32746g_discovery_camera.c: In function 'GetSize':
+../Drivers/BSP/stm32746g_discovery_camera.c:409:8: error: 'CAMERA_R160x120' undeclared (first use in this function)
+  409 |   case CAMERA_R160x120:
+      |        ^~~~~~~~~~~~~~~
+../Drivers/BSP/stm32746g_discovery_camera.c:414:8: error: 'CAMERA_R320x240' undeclared (first use in this function)
+  414 |   case CAMERA_R320x240:
+      |        ^~~~~~~~~~~~~~~
+arm-none-eabi-gcc "../Drivers/BSP/stm32746g_discovery_ts.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I../Core/Inc -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Drivers/multiregion_heap" -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Drivers/ft5336" -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Drivers/n25q128a" -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Fonts" -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Drivers/rk043fn48h" -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Drivers/Common" -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Drivers/ov9655" -I"/home/lime/Downloads/My STM/stm32f746g_disc_DCMI_example/Drivers/BSP" -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/BSP/stm32746g_discovery_ts.d" -MT"Drivers/BSP/stm32746g_discovery_ts.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/BSP/stm32746g_discovery_ts.o"
+../Drivers/BSP/stm32746g_discovery_camera.c:419:8: error: 'CAMERA_R480x272' undeclared (first use in this function)
+  419 |   case CAMERA_R480x272:
+      |        ^~~~~~~~~~~~~~~
+../Drivers/BSP/stm32746g_discovery_camera.c:424:8: error: 'CAMERA_R640x480' undeclared (first use in this function)
+  424 |   case CAMERA_R640x480:
+      |        ^~~~~~~~~~~~~~~
+make: *** [Drivers/BSP/subdir.mk:34: Drivers/BSP/stm32746g_discovery_camera.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+
+11:17:32 Build Failed. 21 errors, 1 warnings. (took 1s.874ms)
+
